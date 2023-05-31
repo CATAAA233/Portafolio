@@ -1,3 +1,9 @@
+:root{
+  --subtitleSize: min(8vw, 1.2rem);
+  --titleSize: min(8vw,3rem);
+  --descriptionSize: min(8vw, 1rem);
+  --accentColor: #ffcc73
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,6 +12,7 @@
 
 html,
 body {
+  background-color: #191d28;
   max-width: 100vw;
   overflow-x: hidden;
 }

@@ -1,8 +1,16 @@
 .main{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     height: 100%;
+}
+
+.Body{
+    width: 100%;
+    height: 100%;
+    max-width: 60rem;
 }
 
 .CoverPage{
@@ -10,7 +18,6 @@
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     min-height: 100vh;
-    background-color: black;
 }
 .BlackLayer{
     position: absolute;
@@ -25,6 +32,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     row-gap: 1rem;
     background-color: transparent;
@@ -32,28 +40,81 @@
     color: white;
 }
 .Presentation{
+    font-size: var(--subtitleSize);
 
 }
 
 .Name{
-
+    font-size: var(--titleSize);
 }
 
 .Job{
+    font-size: var(--descriptionSize);
 
 }
 
 .Button{
-
+    width: 10rem;
+    height: 2.5rem;
+    background-color: var(--accentColor);
+    border: none;
 }
 
 .ImageContainer{
     position: relative;
     width: 100%;
-    height: 100%;
     z-index: 0;
 }
 
 .ImageContainer > img{
     object-fit: cover;
+}
+
+/* ----------------- About Section ---------------- */
+.About{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Profile__Image{
+    width: 100%;
+    height: 100%;
+
+}
+
+.Description__Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.Skills__Container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: span 2 / span 2;
+
+}
+
+.Skill{
+
+}
+
+.Skill__Info{
+
+}
+
+.Title{
+
+}
+
+.Percent{
+
+}
+
+.SkillBar{
+    
 }
