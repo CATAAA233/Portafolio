@@ -10,10 +10,19 @@ export default function Home() {
       <div className={styles.Body}>
         <section className={styles.CoverPage}>
           <div className={styles.TextContainer}>
-            <p className={styles.Presentation}>Hello</p>
-            <p className={styles.Name}>Im Carlos Kemerun</p>
-            <p className={styles.Job}>Full Stack Developer</p>
-            <button className={styles.Button}>Download CV</button>
+            <p className={styles.Presentation}>
+              {" "}
+              <hr /> HELLO
+            </p>
+            <p className={styles.Name}>
+              Im <span>Carlos</span> Catalan
+            </p>
+            <p className={styles.Job}>
+              This is carlos Daniel, full stack developer with 2 years
+              experience in web development located in Baja California, Mexico
+              looking for new challenges
+            </p>
+            <button className={styles.Button}>DOWNLOAD CV</button>
           </div>
           <div className={styles.ImageContainer}>
             <Image
