@@ -45,6 +45,7 @@
 }
 
 .Name{
+    font-family: ArgentumELI;
     font-size: var(--titleSize);
 }
 
@@ -96,7 +97,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column: span 2 / span 2;
-
 }
 
 .Skill{

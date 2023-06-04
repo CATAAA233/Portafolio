@@ -11,7 +11,7 @@ export default function Home() {
         <section className={styles.CoverPage}>
           <div className={styles.TextContainer}>
             <p className={styles.Presentation}>Hello</p>
-            <p className={styles.Name}>Im Carlos Catalan</p>
+            <p className={styles.Name}>Im Carlos Kemerun</p>
             <p className={styles.Job}>Full Stack Developer</p>
             <button className={styles.Button}>Download CV</button>
           </div>

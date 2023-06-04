@@ -1,4 +1,6 @@
 import './globals.css'
+import '@/fonts/fonts.css'
+
 
 export const metadata = {
   title: 'Portafolio',
