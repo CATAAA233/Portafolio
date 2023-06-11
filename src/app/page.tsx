@@ -1,6 +1,5 @@
-import { ProfilePhoto } from "@/components";
+import { ProfilePhoto, SocialNetworks } from "@/components";
 import styles from "./Home.module.css";
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -10,10 +9,12 @@ export default function Home() {
             <ProfilePhoto size="15rem" src={"/images/Home/profile2.png"} />
           </div>
           <div className={styles.TextContainer}>
-            <p className={styles.Presentation}></p>
-            <p className={styles.Name}>
-              <span>Carlos</span> Catalán
-            </p>
+            <div className={styles.Name}>
+              <p>
+                Carlos <span>Catalán</span>
+              </p>
+              <SocialNetworks />
+            </div>
             <p className={styles.Job}>
               This is carlos Daniel, full stack developer with 2 years
               experience in web development located in Baja California, Mexico
@@ -28,9 +29,7 @@ export default function Home() {
               <ProfilePhoto size={"13rem"} src={"/images/Home/profile2.png"} />
             </div>
             <div className={styles.Description__Container}>
-              <p className={styles.Title__Description}>
-                <div className={styles.hrStyle} /> About Me
-              </p>
+              <p className={styles.Title__Description}>About Me</p>
               <p className={styles.Description}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
