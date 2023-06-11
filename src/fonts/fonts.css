@@ -38,3 +38,7 @@
     font-family: ArgentumEBI;
     src: url(./argentumSans/ArgentumSans-ExtraBoldItalic.otf);
 }
+@font-face {
+    font-family: EmelyLime;
+    src: url(./emilyLime/EmilyLimeWords.ttf);
+}

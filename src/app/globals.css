@@ -1,8 +1,12 @@
 :root{
-  --subtitleSize: min(8vw, 1.2rem);
-  --titleSize: min(8vw,3rem);
-  --descriptionSize: min(8vw, 1rem);
-  --accentColor: #ffcc73
+  --small-Subtitle-Size: min(8vw, 0.9rem);
+  --large-Subtitle-Size: min(8vw, 1.5rem);
+  --title-Size: min(8vw,3rem);
+  --small-Title: min(8vw,1.6rem);
+  --description-Size: min(8vw, 1rem);
+  --accent-Color: #ffcc73;
+  --title-Font: ArgentumB;
+  --description-Font: ArgentumEL;
 }
 * {
   box-sizing: border-box;
@@ -13,6 +17,7 @@
 html,
 body {
   background-color: #191d28;
+  color: white;
   max-width: 100vw;
   overflow-x: hidden;
 }
