@@ -1,13 +1,10 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
+import styles from "./Home.module.css";
+import { AboutSection, CoverPage } from "./homeComponents";
 export default function Home() {
   return (
     <main className={styles.main}>
-
+        <CoverPage/>
+        <AboutSection/>
     </main>
-  )
+  );
 }

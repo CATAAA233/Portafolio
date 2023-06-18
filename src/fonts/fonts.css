@@ -1,0 +1,44 @@
+@font-face {
+    font-family: ArgentumEL;
+    src: url(./argentumSans/ArgentumSans-ExtraLight.otf);
+}
+@font-face {
+    font-family: ArgentumELI;
+    src: url(./argentumSans/ArgentumSans-ExtraLightItalic.otf);
+}
+@font-face {
+    font-family: ArgentumL;
+    src: url(./argentumSans/ArgentumSans-Light.otf);
+}
+@font-face {
+    font-family: ArgentumLI;
+    src: url(./argentumSans/ArgentumSans-LightItalic.otf);
+}
+@font-face {
+    font-family: ArgentumR;
+    src: url(./argentumSans/ArgentumSans-Regular.otf);
+}
+@font-face {
+    font-family: ArgentumM;
+    src: url(./argentumSans/ArgentumSans-Medium.otf);
+}
+@font-face {
+    font-family: ArgentumB;
+    src: url(./argentumSans/ArgentumSans-Bold.otf);
+}
+@font-face {
+    font-family: ArgentumBI;
+    src: url(./argentumSans/ArgentumSans-BoldItalic.otf);
+}
+@font-face {
+    font-family: ArgentumEB;
+    src: url(./argentumSans/ArgentumSans-ExtraBold.otf);
+}
+@font-face {
+    font-family: ArgentumEBI;
+    src: url(./argentumSans/ArgentumSans-ExtraBoldItalic.otf);
+}
+@font-face {
+    font-family: EmelyLime;
+    src: url(./emilyLime/EmilyLimeWords.ttf);
+}

@@ -1,0 +1,27 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 2.5 / 2;
+  background-color: var(--foreground-Color);
+  transition-property: outline-color, outline-offset,filter, color;
+  transition-duration: 0.4s;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  z-index: 1;
+}
+
+.Container:hover {
+  color: var(--accent-Color);
+  filter: drop-shadow(0 25px 25px rgb(255 204 115 / 0.1));
+}
+.Icon svg {
+  width: 30px;
+  height: 30px;
+}
+.Title {
+  font-family: ArgentumR;
+  font-size: var(--small-Subtitle-Size);
+}
