@@ -1,10 +1,10 @@
 import styles from "./AboutSection.module.css";
 import { InfoItem, InterestCard } from "./AboutComponents";
-import { FaGamepad, FaReact, FaNodeJs } from "react-icons/Fa";
-import { GiPingPongBat } from "react-icons/Gi";
-import { BsMusicNoteBeamed, BsAirplane } from "react-icons/Bs";
-import { BiCameraMovie } from "react-icons/Bi";
-import { CgGym } from "react-icons/Cg";
+// import { FaGamepad, FaReact, FaNodeJs } from "react-icons/Fa";
+// import { GiPingPongBat } from "react-icons/Gi";
+// import { BsMusicNoteBeamed, BsAirplane } from "react-icons/Bs";
+// import { BiCameraMovie } from "react-icons/Bi";
+// import { CgGym } from "react-icons/Cg";
 export default function AboutSection() {
   const personalData = [
     {
@@ -65,7 +65,7 @@ export default function AboutSection() {
           <div className={styles.Interests}>
             <p className={styles.Intest__Title}>My Interests</p>
             <div className={styles.InterestsContainer}>
-              <InterestCard title={"GAMES"}>
+              {/* <InterestCard title={"GAMES"}>
                 <FaGamepad />
               </InterestCard>
 
@@ -95,7 +95,7 @@ export default function AboutSection() {
 
               <InterestCard title={"NODE JS"}>
                 <FaNodeJs />
-              </InterestCard>
+              </InterestCard> */}
             </div>
           </div>
         </div>
