@@ -9,6 +9,9 @@
   min-height: 100vh;
   background-color: var(--foreground-Color);
 }
+.BackendColor{
+  background-color: var(--dark-foreground-Color); 
+}
 .Body {
   display: flex;
   flex-direction: column;
