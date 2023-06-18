@@ -6,7 +6,7 @@ export default function CoverPage() {
     <section className={styles.CoverPage}>
       <div className={styles.Body}>
         <div className={styles.ImageContainer}>
-          <ProfilePhoto size="15rem" src={"/images/Home/profile2.png"} />
+          <ProfilePhoto size="15rem" src={"/images/Home/profile_photo.jpg"} />
         </div>
         <div className={styles.TextContainer}>
           <div className={styles.Name}>
