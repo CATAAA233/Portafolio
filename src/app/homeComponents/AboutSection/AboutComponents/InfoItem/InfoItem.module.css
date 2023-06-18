@@ -1,10 +1,10 @@
 .Container {
-    display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
-  }
-  .Title {
-    color: var(--accent-Color);
-  }
-  .ItemDescription{
-    
-  }
+  display: grid;
+  grid-template-columns: 0.55fr 1.45fr;
+}
+.Title {
+  color: var(--accent-Color);
+}
+.ItemDescription {
+  word-break: break-all;
+}

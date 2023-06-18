@@ -13,7 +13,7 @@ export default function AboutSection() {
     },
     {
       title: "Phone",
-      description: "664-55-64-186",
+      description: "664 55 64 186",
     },
     {
       title: "Email",

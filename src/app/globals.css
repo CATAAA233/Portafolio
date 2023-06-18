@@ -1,5 +1,5 @@
 :root {
-  --page-margin: 0 min(5vw, 5rem);
+  --page-margin: min(30vw, 5rem) min(5vw, 5rem);
   --small-Subtitle-Size: min(8vw, 0.9rem);
   --large-Subtitle-Size: min(8vw, 1.5rem);
   --title-Size: min(8vw, 3rem);
