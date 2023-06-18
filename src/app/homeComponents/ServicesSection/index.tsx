@@ -6,7 +6,7 @@ export default function ServicesSection() {
     <section className={styles.Container}>
       <div className={styles.Body}>
         <div className={styles.Header}>
-          <p className={styles.Title}>My Services</p>
+          <p className={styles.Title}>Frontend Services</p>
           <p className={styles.Description}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
