@@ -5,6 +5,8 @@
   --small-Title: min(8vw,1.6rem);
   --description-Size: min(8vw, 1rem);
   --accent-Color: #ffcc73;
+  --foreground-Color: #191d28;
+  --dark-foreground-Color: #171922;
   --title-Font: ArgentumB;
   --description-Font: ArgentumEL;
 }

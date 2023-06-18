@@ -1,0 +1,19 @@
+.Button {
+    font-family: ArgentumR;
+    width: 10rem;
+    height: 2.5rem;
+    background-color:transparent;
+    border: none;
+    color: white;
+    outline: 1px solid white;
+    transition-property: outline-color,outline-offset,background-color,color;
+    transition-duration: 0.25s;
+}
+
+.Button:hover{
+    outline-offset: 4px;
+    background-color: var(--accent-Color);
+    outline-color: var(--accent-Color);
+    color: black;
+}
+  
