@@ -1,4 +1,3 @@
-import CustomButton from "@/components/CustomButton";
 import styles from "./AboutSection.module.css";
 import { InfoItem, InterestCard } from "./AboutComponents";
 import { FaGamepad, FaReact, FaNodeJs } from "react-icons/Fa";
@@ -45,68 +44,61 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className={styles.Personal__Information}>
-          <div className={styles.PersonalTitle}>
-            <p>Personal Details</p>
-          </div>
-          <div className={styles.Information__Container}>
-            {personalData.map((item, key) => {
-              return (
-                <InfoItem
-                  key={key}
-                  title={item.title}
-                  description={item.description}
-                />
-              );
-            })}
-          </div>
-        </div>
-
-        <div className={styles.Interests}>
-          <p className={styles.Intest__Title}>My Interests</p>
-          <div className={styles.InterestsContainer}>
-            <InterestCard title={"GAMES"}>
-              <FaGamepad />
-            </InterestCard>
-
-            <InterestCard title={"PING PONG"}>
-              <GiPingPongBat />
-            </InterestCard>
-
-            <InterestCard title={"MUSIC"}>
-              <BsMusicNoteBeamed />
-            </InterestCard>
-
-            <InterestCard title={"CINEMA"}>
-              <BiCameraMovie />
-            </InterestCard>
-
-            <InterestCard title={"GYM"}>
-              <CgGym />
-            </InterestCard>
-
-            <InterestCard title={"TRAVEL"}>
-              <BsAirplane />
-            </InterestCard>
-
-            <InterestCard title={"REACT JS"}>
-              <FaReact />
-            </InterestCard>
-
-            <InterestCard title={"NODE JS"}>
-              <FaNodeJs />
-            </InterestCard>
-          </div>
-        </div>
-        {/* <div className={styles.Skills__Container}>
-          <div className={styles.Skill}>
-            <div className={styles.Skill__Info}>
-              <p className={styles.Title}></p>
-              <p className={styles.Percent}></p>
+        <div className={styles.Info}>
+          <div className={styles.Personal__Information}>
+            <div className={styles.PersonalTitle}>
+              <p>Personal Details</p>
             </div>
-            <div className={styles.SkillBar}></div>
+            <div className={styles.Information__Container}>
+              {personalData.map((item, key) => {
+                return (
+                  <InfoItem
+                    key={key}
+                    title={item.title}
+                    description={item.description}
+                  />
+                );
+              })}
+            </div>
           </div>
-        </div> */}
+
+          <div className={styles.Interests}>
+            <p className={styles.Intest__Title}>My Interests</p>
+            <div className={styles.InterestsContainer}>
+              <InterestCard title={"GAMES"}>
+                <FaGamepad />
+              </InterestCard>
+
+              <InterestCard title={"PING PONG"}>
+                <GiPingPongBat />
+              </InterestCard>
+
+              <InterestCard title={"MUSIC"}>
+                <BsMusicNoteBeamed />
+              </InterestCard>
+
+              <InterestCard title={"CINEMA"}>
+                <BiCameraMovie />
+              </InterestCard>
+
+              <InterestCard title={"GYM"}>
+                <CgGym />
+              </InterestCard>
+
+              <InterestCard title={"TRAVEL"}>
+                <BsAirplane />
+              </InterestCard>
+
+              <InterestCard title={"REACT JS"}>
+                <FaReact />
+              </InterestCard>
+
+              <InterestCard title={"NODE JS"}>
+                <FaNodeJs />
+              </InterestCard>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

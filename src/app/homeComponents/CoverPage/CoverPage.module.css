@@ -1,10 +1,18 @@
 .CoverPage {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.Body{
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  align-items: center;
   max-width: 30rem;
-  min-height: 100vh;
+  height: min-content;
+  margin: var(--page-margin);
 }
 .ImageContainer {
   position: relative;
