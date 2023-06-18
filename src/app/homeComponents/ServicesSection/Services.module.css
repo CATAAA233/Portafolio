@@ -1,0 +1,43 @@
+.Container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--foreground-Color);
+}
+.BackendColor{
+  background-color: var(--dark-foreground-Color); 
+}
+.Body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--max-width);
+  height: 100%;
+  row-gap: 4rem;
+  margin: var(--page-margin);
+}
+.Header {
+  text-align: center;
+}
+.Title {
+  font-size: var(--small-Title);
+  font-family: var(--title-Font);
+  color: var(--accent-Color);
+}
+.Description {
+  max-width: 40rem;
+  font-family: var(--description-Font);
+  font-size: var(--description-Size);
+  line-height: min(8vw, 1.8rem);
+}
+.CardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
