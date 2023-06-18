@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 70rem;
+  max-width: var(--max-width);
   height: 100%;
   row-gap: 4rem;
   margin: var(--page-margin);

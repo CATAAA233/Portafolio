@@ -1,0 +1,38 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    background-color: var(--dark-foreground-Color);
+    border-radius: 10px;
+
+}
+.Body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.Icon svg{
+    width: 40px;
+    height: 40px;
+}
+
+.Information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+    
+}
+
+.Title{
+    font-family: var(--title-Font);
+    font-size: var(--small-Subtitle-Size);
+}
+.Description{
+    font-family: var(--description-Font);
+    font-size: var(--description-Size);
+}
