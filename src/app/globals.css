@@ -26,3 +26,14 @@ body {
   max-height: 100vh;
   overflow-x: hidden;
 }
+.swiper {
+  width: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: red;
+  color: red;
+}
+.swiper-pagination-bullet-active-main {
+  background-color: red;
+  color: red;
+}
