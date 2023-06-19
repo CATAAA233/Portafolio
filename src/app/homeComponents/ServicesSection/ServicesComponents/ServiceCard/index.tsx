@@ -3,17 +3,17 @@ export enum CardBackground {
   Foreground = "#191d28",
   Dark__Foreground = "#171922",
 }
-interface ServiceCardProps {
+export interface ServiceCardProps {
   title: string;
   description: string;
   backgroundColor?: CardBackground;
-  children: JSX.Element | JSX.Element[];
+  icon: JSX.Element;
 }
 export default function ServiceCard({
   title,
   description,
   backgroundColor = CardBackground.Dark__Foreground,
-  children,
+  icon
 }: ServiceCardProps) {
   return (
     <div
@@ -23,7 +23,7 @@ export default function ServiceCard({
       }}
     >
       <div className={styles.Body}>
-        <div className={styles.Icon}>{children}</div>
+        <div className={styles.Icon}>{icon}</div>
         <div className={styles.Information}>
           <p className={styles.Title}>{title}</p>
           <p className={styles.Description}>{description}</p>

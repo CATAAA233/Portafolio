@@ -1,8 +1,46 @@
-import styles from "../Services.module.css";
-import { ServiceCard } from "../ServicesComponents";
 import { BsCodeSlash } from "react-icons/bs";
-import { CardBackground } from "../ServicesComponents/ServiceCard";
+import styles from "../Services.module.css";
+import { ServiceCardProps } from "../ServicesComponents/ServiceCard";
+import ServiceList from "../ServicesComponents/ServiceList";
 export default function BackendServices() {
+  const serviceData: ServiceCardProps[] = [
+    {
+      title: "API REST",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+    {
+      title: "Payment Gateways",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+    {
+      title: "Integrations With Google APIs",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+    {
+      title: "Clean Architecture",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+    {
+      title: "Google Cloud Platform",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+    {
+      title: "Database Administration",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut",
+      icon: <BsCodeSlash />,
+    },
+  ];
   return (
     <section className={styles.Container + " " + styles.BackendColor}>
       <div className={styles.Body}>
@@ -13,67 +51,7 @@ export default function BackendServices() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           </p>
         </div>
-        <div className={styles.CardsContainer}>
-          <ServiceCard
-            title={"API REST"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-
-          <ServiceCard
-            title={"Payment Gateways"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-
-          <ServiceCard
-            title={"Integrations With Google APIS"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-
-          <ServiceCard
-            title={"Clean Architecture"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-
-          <ServiceCard
-            title={"Google Cloud Platform"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-
-          <ServiceCard
-            title={"Database Administration"}
-            description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"
-            }
-            backgroundColor={CardBackground.Foreground}
-          >
-            <BsCodeSlash />
-          </ServiceCard>
-        </div>
+        <ServiceList serviceData={serviceData} />
       </div>
     </section>
   );
