@@ -14,14 +14,14 @@
 
 /*------------------ Landscape tablets 768px and up --------------*/
 @media screen and (min-width: 768px) {
-  .CardsContainer {
+  .Container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /*------------------ Laptops/desktops 992px and up --------------*/
 @media screen and (min-width: 992px) {
-  .CardsContainer {
+  .Container {
     grid-template-columns: repeat(3, 1fr);
   }
 }

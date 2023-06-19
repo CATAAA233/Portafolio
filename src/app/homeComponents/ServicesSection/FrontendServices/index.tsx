@@ -1,6 +1,6 @@
 import { BsCodeSlash } from "react-icons/bs";
 import styles from "../Services.module.css";
-import { ServiceCardProps } from "../ServicesComponents/ServiceCard";
+import { CardBackground, ServiceCardProps } from "../ServicesComponents/ServiceCard";
 import ServiceList from "../ServicesComponents/ServiceList";
 export default function FrontendServices() {
   const serviceData: ServiceCardProps[] = [
@@ -51,7 +51,7 @@ export default function FrontendServices() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
           </p>
         </div>
-        <ServiceList serviceData={serviceData} />
+        <ServiceList serviceData={serviceData} cardsTheme={CardBackground.Dark__Foreground} />
       </div>
     </section>
   );
